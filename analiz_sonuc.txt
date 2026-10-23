@@ -1,0 +1,37 @@
+Toplam kitap: 1000  |  Analizde kullanilan: 1000
+Kategori sayisi: 50
+Genel ortalama fiyat: £35.07  (min £10.00, max £59.99)
+
+En pahali 10 kategori (ortalama fiyat):
+                  ortalama  adet
+kategori                        
+Politics             53.61     3
+Health               51.45     4
+New Adult            46.38     6
+Christian            42.50     3
+Sports and Games     41.17     5
+Self Help            40.62     5
+Travel               39.79    11
+Fantasy              39.59    48
+Art                  38.52     8
+History              37.29    18
+
+Puan dagilimi:
+puan
+1    226
+2    196
+3    203
+4    179
+5    196
+
+Puana gore fiyat:
+       mean  median  count
+puan                      
+1     34.56   34.77    226
+2     34.81   36.22    196
+3     34.69   33.78    203
+4     36.09   37.80    179
+5     35.37   36.90    196
+
+Puani yuksek kitaplar daha mi pahali?
+HAYIR. Puan ile fiyat arasinda anlamli bir iliski yok; korelasyon neredeyse sifir (r = 0.028). Her puan grubunda ortalama fiyat birbirine cok yakin (yaklasik £34-36 bandinda). Bu sitede puanlar ve fiyatlar rastgele atandigi icin beklenen bir sonuc.
