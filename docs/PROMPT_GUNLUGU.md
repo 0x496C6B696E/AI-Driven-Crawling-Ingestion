@@ -1,6 +1,6 @@
 # Prompt Günlüğü
 
-Araç: **Claude (Anthropic) — Claude masaüstü uygulaması, bilgisayarıma bağlı oturum.** Kod bulut çalışma alanında yazıldı, bilgisayarımdaki `Documents/kitap-scraper` klasöründe çalıştırıldı.
+Araç: **Claude (Anthropic).** İlk oturum: Claude masaüstü uygulaması, bilgisayarıma bağlı bulut çalışma alanı (prompt 1–10). Son oturum: **Claude Code (VS Code eklentisi)**, doğrudan bilgisayarımdaki proje klasöründe (prompt 11–12).
 
 Aşağıda kullandığım en önemli promptlar, AI'ın ürettiği, çalışıp çalışmadığı ve nasıl düzelttiğim var.
 
@@ -57,3 +57,13 @@ Aşağıda kullandığım en önemli promptlar, AI'ın ürettiği, çalışıp �
 **Prompt:** *"CSV'yi pandas ile aç; satır sayısı, tipler, boş değerler, puan değerleri ve kategori sayısını göster."*
 **AI ne üretti:** `(1000, 7)`, `fiyat float64`, `puan int64`, tüm sütunlarda 0 boş değer, puan yalnızca 1–5, 50 kategori. Rastgele bir kitabı ("It's Only the Himalayas", £45.17, 2 yıldız, Travel) siteyle karşılaştırdı.
 **Çalıştı mı:** Evet.
+
+### 11. Yerel makinede gerçek çalıştırma (Claude Code, VS Code)
+**Prompt:** (ödev metni) *"Ödev bu, başla; bitince git'e gönder."*
+**AI ne üretti:** Repodaki mevcut durumu okudu ve ilk oturumdaki eksiği (CSV'nin Python scripti yerine tarayıcı sürümüyle çekilmiş olması) tespit etti. Bu makinede `python` komutunun Microsoft Store yönlendirmesine takıldığını, `python3.12`'nin çalıştığını ve siteye erişimin olduğunu (HTTP 200, ana sayfada toplam 1000) doğruladı. Önce 2 istekli bir canlı sanity testi yaptı (`page-50` → `next = None`, "Frankenstein 38.0 2"), sonra `scrape.py`'yi gerçek olarak çalıştırdı.
+**Çalıştı mı:** Evet. 50 sayfa, **1000 / 1000** kitap, 13 dk 20 sn, 0 uyarı / 0 hata, hiç boş alan yok (`logs/scrape.log`). Python çıktısı, ilk oturumda tarayıcıdan çekilen CSV ile pandas'la karşılaştırıldı: 1000 URL eşleşti, 6 alanın hiçbirinde fark yok, **iki dosya birebir aynı**. Grafikler ve `analiz_sonuc.txt` yeni CSV'den yeniden üretildi (aynı sonuçlar: r = 0.028).
+
+### 12. Klasör yapısı + test katmanları
+**Prompt:** *"Klasör yapısını yeniden düzenle ve maksimum profesyonel yap: loglar ve doclar ayrı klasörlerde; charts, .gitignore, data, tests (e2e, integration) ve tools klasörleri; README daha detaylı; sonunda commit + push."*
+**AI ne üretti:** `src/ data/ charts/ logs/ docs/ tools/ tests/{unit,integration,e2e}` yapısı (dosyalar `git mv` ile taşındı, geçmiş korundu). Scriptlere `--out / --log / --max-pages / --delay` seçenekleri (e2e testin geçici klasöre 1 sayfa çekebilmesi için), `parse_detail`'i ağsız test edilebilsin diye `parse_detail_soup` ve `site_total` yardımcılarına ayırma. 8 birim + 4 entegrasyon + 1 uçtan uca test, `pytest.ini`, `requirements-dev.txt`, `.gitignore`, bölümlü README.
+**Çalışmadı → düzeltme:** `src/scrape.py`'yi bash heredoc ile yazarken kabuk hatası aldı (*unexpected EOF while looking for matching quote*) ve dosya hiç oluşmadı; AI bunu `ls` ile fark edip dosyayı doğrudan yazma aracıyla oluşturdu. `--delay 0` verilebiliyordu; CLAUDE.md'deki "en az 0.5 sn" kuralına uysun diye alt sınır 0.5'e sabitlendi. Windows konsolunda `£` karakteri `�` görünüyordu (dosya UTF-8 ve doğruydu); `sys.stdout.reconfigure(encoding="utf-8")` ile düzeltildi. Sonuç: **13 / 13 test geçti** (unit 0.07 sn; integration + e2e 21.8 sn).

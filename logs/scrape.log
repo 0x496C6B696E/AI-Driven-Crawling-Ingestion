@@ -1,0 +1,104 @@
+2026-10-23 16:19:49,767 INFO Sayfa 1: https://books.toscrape.com/catalogue/page-1.html
+2026-10-23 16:20:06,356 INFO   20 kitap bulundu (toplam 20)
+2026-10-23 16:20:06,360 INFO Sayfa 2: https://books.toscrape.com/catalogue/page-2.html
+2026-10-23 16:20:22,109 INFO   20 kitap bulundu (toplam 40)
+2026-10-23 16:20:22,112 INFO Sayfa 3: https://books.toscrape.com/catalogue/page-3.html
+2026-10-23 16:20:38,003 INFO   20 kitap bulundu (toplam 60)
+2026-10-23 16:20:38,005 INFO Sayfa 4: https://books.toscrape.com/catalogue/page-4.html
+2026-10-23 16:20:53,874 INFO   20 kitap bulundu (toplam 80)
+2026-10-23 16:20:53,877 INFO Sayfa 5: https://books.toscrape.com/catalogue/page-5.html
+2026-10-23 16:21:09,893 INFO   20 kitap bulundu (toplam 100)
+2026-10-23 16:21:09,898 INFO Sayfa 6: https://books.toscrape.com/catalogue/page-6.html
+2026-10-23 16:21:25,432 INFO   20 kitap bulundu (toplam 120)
+2026-10-23 16:21:25,434 INFO Sayfa 7: https://books.toscrape.com/catalogue/page-7.html
+2026-10-23 16:21:41,671 INFO   20 kitap bulundu (toplam 140)
+2026-10-23 16:21:41,673 INFO Sayfa 8: https://books.toscrape.com/catalogue/page-8.html
+2026-10-23 16:21:57,265 INFO   20 kitap bulundu (toplam 160)
+2026-10-23 16:21:57,270 INFO Sayfa 9: https://books.toscrape.com/catalogue/page-9.html
+2026-10-23 16:22:13,432 INFO   20 kitap bulundu (toplam 180)
+2026-10-23 16:22:13,436 INFO Sayfa 10: https://books.toscrape.com/catalogue/page-10.html
+2026-10-23 16:22:28,988 INFO   20 kitap bulundu (toplam 200)
+2026-10-23 16:22:28,992 INFO Sayfa 11: https://books.toscrape.com/catalogue/page-11.html
+2026-10-23 16:22:45,309 INFO   20 kitap bulundu (toplam 220)
+2026-10-23 16:22:45,313 INFO Sayfa 12: https://books.toscrape.com/catalogue/page-12.html
+2026-10-23 16:23:01,281 INFO   20 kitap bulundu (toplam 240)
+2026-10-23 16:23:01,285 INFO Sayfa 13: https://books.toscrape.com/catalogue/page-13.html
+2026-10-23 16:23:17,476 INFO   20 kitap bulundu (toplam 260)
+2026-10-23 16:23:17,479 INFO Sayfa 14: https://books.toscrape.com/catalogue/page-14.html
+2026-10-23 16:23:33,204 INFO   20 kitap bulundu (toplam 280)
+2026-10-23 16:23:33,206 INFO Sayfa 15: https://books.toscrape.com/catalogue/page-15.html
+2026-10-23 16:23:49,312 INFO   20 kitap bulundu (toplam 300)
+2026-10-23 16:23:49,316 INFO Sayfa 16: https://books.toscrape.com/catalogue/page-16.html
+2026-10-23 16:24:05,200 INFO   20 kitap bulundu (toplam 320)
+2026-10-23 16:24:05,204 INFO Sayfa 17: https://books.toscrape.com/catalogue/page-17.html
+2026-10-23 16:24:21,132 INFO   20 kitap bulundu (toplam 340)
+2026-10-23 16:24:21,136 INFO Sayfa 18: https://books.toscrape.com/catalogue/page-18.html
+2026-10-23 16:24:36,866 INFO   20 kitap bulundu (toplam 360)
+2026-10-23 16:24:36,868 INFO Sayfa 19: https://books.toscrape.com/catalogue/page-19.html
+2026-10-23 16:24:52,476 INFO   20 kitap bulundu (toplam 380)
+2026-10-23 16:24:52,478 INFO Sayfa 20: https://books.toscrape.com/catalogue/page-20.html
+2026-10-23 16:25:08,433 INFO   20 kitap bulundu (toplam 400)
+2026-10-23 16:25:08,434 INFO Sayfa 21: https://books.toscrape.com/catalogue/page-21.html
+2026-10-23 16:25:24,856 INFO   20 kitap bulundu (toplam 420)
+2026-10-23 16:25:24,860 INFO Sayfa 22: https://books.toscrape.com/catalogue/page-22.html
+2026-10-23 16:25:41,199 INFO   20 kitap bulundu (toplam 440)
+2026-10-23 16:25:41,204 INFO Sayfa 23: https://books.toscrape.com/catalogue/page-23.html
+2026-10-23 16:25:57,274 INFO   20 kitap bulundu (toplam 460)
+2026-10-23 16:25:57,276 INFO Sayfa 24: https://books.toscrape.com/catalogue/page-24.html
+2026-10-23 16:26:13,127 INFO   20 kitap bulundu (toplam 480)
+2026-10-23 16:26:13,128 INFO Sayfa 25: https://books.toscrape.com/catalogue/page-25.html
+2026-10-23 16:26:28,455 INFO   20 kitap bulundu (toplam 500)
+2026-10-23 16:26:28,459 INFO Sayfa 26: https://books.toscrape.com/catalogue/page-26.html
+2026-10-23 16:26:44,671 INFO   20 kitap bulundu (toplam 520)
+2026-10-23 16:26:44,675 INFO Sayfa 27: https://books.toscrape.com/catalogue/page-27.html
+2026-10-23 16:27:00,922 INFO   20 kitap bulundu (toplam 540)
+2026-10-23 16:27:00,925 INFO Sayfa 28: https://books.toscrape.com/catalogue/page-28.html
+2026-10-23 16:27:16,161 INFO   20 kitap bulundu (toplam 560)
+2026-10-23 16:27:16,165 INFO Sayfa 29: https://books.toscrape.com/catalogue/page-29.html
+2026-10-23 16:27:32,146 INFO   20 kitap bulundu (toplam 580)
+2026-10-23 16:27:32,150 INFO Sayfa 30: https://books.toscrape.com/catalogue/page-30.html
+2026-10-23 16:27:47,794 INFO   20 kitap bulundu (toplam 600)
+2026-10-23 16:27:47,797 INFO Sayfa 31: https://books.toscrape.com/catalogue/page-31.html
+2026-10-23 16:28:03,470 INFO   20 kitap bulundu (toplam 620)
+2026-10-23 16:28:03,474 INFO Sayfa 32: https://books.toscrape.com/catalogue/page-32.html
+2026-10-23 16:28:19,273 INFO   20 kitap bulundu (toplam 640)
+2026-10-23 16:28:19,277 INFO Sayfa 33: https://books.toscrape.com/catalogue/page-33.html
+2026-10-23 16:28:35,234 INFO   20 kitap bulundu (toplam 660)
+2026-10-23 16:28:35,238 INFO Sayfa 34: https://books.toscrape.com/catalogue/page-34.html
+2026-10-23 16:28:51,182 INFO   20 kitap bulundu (toplam 680)
+2026-10-23 16:28:51,186 INFO Sayfa 35: https://books.toscrape.com/catalogue/page-35.html
+2026-10-23 16:29:06,775 INFO   20 kitap bulundu (toplam 700)
+2026-10-23 16:29:06,779 INFO Sayfa 36: https://books.toscrape.com/catalogue/page-36.html
+2026-10-23 16:29:22,263 INFO   20 kitap bulundu (toplam 720)
+2026-10-23 16:29:22,267 INFO Sayfa 37: https://books.toscrape.com/catalogue/page-37.html
+2026-10-23 16:29:37,955 INFO   20 kitap bulundu (toplam 740)
+2026-10-23 16:29:37,958 INFO Sayfa 38: https://books.toscrape.com/catalogue/page-38.html
+2026-10-23 16:29:53,578 INFO   20 kitap bulundu (toplam 760)
+2026-10-23 16:29:53,582 INFO Sayfa 39: https://books.toscrape.com/catalogue/page-39.html
+2026-10-23 16:30:09,413 INFO   20 kitap bulundu (toplam 780)
+2026-10-23 16:30:09,417 INFO Sayfa 40: https://books.toscrape.com/catalogue/page-40.html
+2026-10-23 16:30:24,968 INFO   20 kitap bulundu (toplam 800)
+2026-10-23 16:30:24,970 INFO Sayfa 41: https://books.toscrape.com/catalogue/page-41.html
+2026-10-23 16:30:40,936 INFO   20 kitap bulundu (toplam 820)
+2026-10-23 16:30:40,938 INFO Sayfa 42: https://books.toscrape.com/catalogue/page-42.html
+2026-10-23 16:30:56,274 INFO   20 kitap bulundu (toplam 840)
+2026-10-23 16:30:56,276 INFO Sayfa 43: https://books.toscrape.com/catalogue/page-43.html
+2026-10-23 16:31:11,950 INFO   20 kitap bulundu (toplam 860)
+2026-10-23 16:31:11,953 INFO Sayfa 44: https://books.toscrape.com/catalogue/page-44.html
+2026-10-23 16:31:27,596 INFO   20 kitap bulundu (toplam 880)
+2026-10-23 16:31:27,598 INFO Sayfa 45: https://books.toscrape.com/catalogue/page-45.html
+2026-10-23 16:31:42,973 INFO   20 kitap bulundu (toplam 900)
+2026-10-23 16:31:42,977 INFO Sayfa 46: https://books.toscrape.com/catalogue/page-46.html
+2026-10-23 16:31:58,838 INFO   20 kitap bulundu (toplam 920)
+2026-10-23 16:31:58,841 INFO Sayfa 47: https://books.toscrape.com/catalogue/page-47.html
+2026-10-23 16:32:15,965 INFO   20 kitap bulundu (toplam 940)
+2026-10-23 16:32:15,969 INFO Sayfa 48: https://books.toscrape.com/catalogue/page-48.html
+2026-10-23 16:32:33,532 INFO   20 kitap bulundu (toplam 960)
+2026-10-23 16:32:33,537 INFO Sayfa 49: https://books.toscrape.com/catalogue/page-49.html
+2026-10-23 16:32:51,028 INFO   20 kitap bulundu (toplam 980)
+2026-10-23 16:32:51,030 INFO Sayfa 50: https://books.toscrape.com/catalogue/page-50.html
+2026-10-23 16:33:08,261 INFO   20 kitap bulundu (toplam 1000)
+2026-10-23 16:33:09,270 INFO === OZET ===
+2026-10-23 16:33:09,270 INFO Cekilen kitap: 1000 | Sitede yazan: 1000 | Sayfa: 50
+2026-10-23 16:33:09,270 INFO Eksik alan sayilari: {'kitap_adi': 0, 'fiyat': 0, 'puan': 0, 'stok': 0, 'kategori': 0}
+2026-10-23 16:33:09,270 INFO CSV yazildi: kitaplar.csv
